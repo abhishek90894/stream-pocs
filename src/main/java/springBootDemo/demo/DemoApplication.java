@@ -10,7 +10,8 @@ public class DemoApplication {
 	{
 		SpringApplication.run(DemoApplication.class, args);
 		System.out.println("abhishek srivastava");
-		System.out.println("this is git demo");
+		System.out.println("this is git demo ");
+		System.out.println("this is second method");
 	}
 
 }
