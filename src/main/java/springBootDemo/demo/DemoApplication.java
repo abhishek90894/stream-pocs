@@ -53,11 +53,11 @@ public class DemoApplication {
 		emp4.setEmpName("ankit srivastava");
 		emp4.setSalary(60000);
 
-		List<employee> l1 = new ArrayList<>();
-		l1.add(emp1);
-		l1.add(emp2);
-		l1.add(emp3);
-		l1.add(emp4);
+		List<employee> l8 = new ArrayList<>();
+		l8.add(emp1);
+		l8.add(emp2);
+		l8.add(emp3);
+		l8.add(emp4);
 
 //		System.out.println(l1);
 
@@ -66,9 +66,9 @@ public class DemoApplication {
 //		List<employee> salary =  even.stream().filter(e->e.getSalary()>50000).collect(Collectors.toList());
 //		System.out.println(salary);
 
-		     List<employee> evenSal =l1.stream().filter(e->e.getEmpId()%2!=0).filter(e->e.getSalary()>48000).collect(Collectors.toList());
+		     List<employee> evenSal =l8.stream().filter(e->e.getEmpId()%2!=0).filter(e->e.getSalary()>48000).collect(Collectors.toList());
 		System.out.println(evenSal);
-	int sal	=l1.stream().mapToInt(e->e.getSalary()).sum();
+	int sal	=l8.stream().mapToInt(e->e.getSalary()).sum();
 		System.out.println(sal);
 
 
