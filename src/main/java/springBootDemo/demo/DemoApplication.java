@@ -16,16 +16,23 @@ public class DemoApplication {
 //		System.out.println("this is git demo ");
 //		System.out.println("this is second method");
 //    // create a list and sort the element of the list
-//		List<Integer> l1 = Arrays.asList(4,5,2,7,8,9,3);
-//		List<Integer> l2 =l1.stream().sorted().collect(Collectors.toList());
-//		System.out.println(l2);
-//
-//		// find the  no. repeated in the list
-//
-//		List<Integer> l3 = List.of(2,2,2,3,4,5,4,6,7,8,8,8,9,3,3);
-//		 Set<Integer> l4 = l3.stream().filter(e-> Collections.frequency(l3,e)>1).collect(Collectors.toSet());
-//		System.out.println(l4);
+		List<Integer> l1 = Arrays.asList(4,5,2,7,8,9,3);
+		List<Integer> l2 =l1.stream().sorted().collect(Collectors.toList());
+		System.out.println(l2);
 
+		/**
+		find the  no. repeated in the list
+
+		 */
+
+		List<Integer> l3 = List.of(2,2,2,3,4,5,4,6,7,8,8,8,9,3,3);
+		 Set<Integer> l4 = l3.stream().filter(e-> Collections.frequency(l3,e)>1).collect(Collectors.toSet());
+		System.out.println(l4);
+
+		/**
+		 *  code to check the salary of the employee greater than 48 thousand
+		 *  and whose empId is even
+		 */
 		employee emp1 = new employee();
 		emp1.setEmpId(101);
 		emp1.setEmpName("abhishek srivastava");
