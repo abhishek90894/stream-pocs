@@ -103,6 +103,10 @@ public class allStreamPoc {
         int sum1 = add.stream().reduce((a,b)->a+b).get();
         System.out.println(sum1);
 
+        /**
+         *filtering the product price greater than 3000
+         */
+
 
 
     }
