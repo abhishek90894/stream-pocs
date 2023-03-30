@@ -102,5 +102,8 @@ public class allStreamPoc {
         List<Integer> add = List.of(5,6,4);
         int sum1 = add.stream().reduce((a,b)->a+b).get();
         System.out.println(sum1);
+
+
+
     }
 }
