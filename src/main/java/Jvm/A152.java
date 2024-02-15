@@ -17,7 +17,7 @@ public class A152 {
             {
                 if(a[i]==a[j])
                 {
-                    l1.add(a[j]);
+                    l1.add(a[i]);
                 }
             }
         }
